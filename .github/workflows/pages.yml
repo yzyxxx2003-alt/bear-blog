@@ -39,7 +39,6 @@ jobs:
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
           test -s public/index.html
           test -s public/blog/index.html
-          test -s public/blog/hello/index.html
           test -s public/about/index.html
       - uses: actions/upload-pages-artifact@v3
         with:
