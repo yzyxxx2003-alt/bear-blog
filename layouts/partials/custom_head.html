@@ -12,6 +12,11 @@
     --border: #e6cfc7;
     --surface: #fff0e8;
   }
+  {{ if .IsHome }}
+  :root {
+    --background-color: #fff;
+  }
+  {{ end }}
   @media (prefers-color-scheme: dark) {
     :root {
       --background-color: #261d20;
