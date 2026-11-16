@@ -1,5 +1,5 @@
 baseURL = "https://yzyxxx2003-alt.github.io/bear-blog/"
-title = "小熊手记"
+title = "Ye Zhao’s Blog ⭐"
 theme = "hugo-bearblog"
 defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
@@ -19,11 +19,11 @@ pageRef = "/"
 weight = 10
 
 [[menus.main]]
-name = "文章"
+name = "记录"
 pageRef = "/blog"
 weight = 20
 
 [[menus.main]]
-name = "关于"
+name = "me"
 pageRef = "/about"
 weight = 30
