@@ -1,0 +1,29 @@
+baseURL = "https://yzyxxx2003-alt.github.io/bear-blog/"
+title = "小熊手记"
+theme = "hugo-bearblog"
+defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+timeZone = "Asia/Shanghai"
+
+[languages.zh-cn]
+locale = "zh-CN"
+
+[params]
+description = "日常、随笔和偶尔的小发现。"
+dateFormat = "2006年1月2日"
+hideMadeWithLine = true
+
+[[menus.main]]
+name = "首页"
+pageRef = "/"
+weight = 10
+
+[[menus.main]]
+name = "文章"
+pageRef = "/blog"
+weight = 20
+
+[[menus.main]]
+name = "关于"
+pageRef = "/about"
+weight = 30
