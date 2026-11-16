@@ -4,29 +4,24 @@
     --width: 660px;
     --font-main: system-ui, "Microsoft YaHei", sans-serif;
     --font-secondary: var(--font-main);
-    --background-color: #fffaf3;
-    --heading-color: #442c28;
-    --text-color: #533d37;
-    --link-color: #943f55;
-    --visited-color: #764b69;
-    --border: #e6cfc7;
-    --surface: #fff0e8;
+    --background-color: #fbf9ff;
+    --heading-color: #302639;
+    --text-color: #463d4e;
+    --link-color: #68488a;
+    --visited-color: #775176;
+    --border: #e4d9ee;
+    --surface: #f0e8fa;
   }
-  {{ if .IsHome }}
-  :root {
-    --background-color: #fff;
-  }
-  {{ end }}
   @media (prefers-color-scheme: dark) {
     :root {
-      --background-color: #261d20;
-      --heading-color: #ffe8df;
-      --text-color: #f2d9d3;
-      --link-color: #ffafbf;
-      --visited-color: #ebbad9;
-      --blockquote-color: #f2d9d3;
-      --border: #735058;
-      --surface: #3b292e;
+      --background-color: #231d2c;
+      --heading-color: #f7ecff;
+      --text-color: #e6daef;
+      --link-color: #dcbcff;
+      --visited-color: #e3bdde;
+      --blockquote-color: #e6daef;
+      --border: #594867;
+      --surface: #352942;
     }
   }
   body { padding: clamp(24px, 7vw, 72px) 22px; line-height: 1.8; }
