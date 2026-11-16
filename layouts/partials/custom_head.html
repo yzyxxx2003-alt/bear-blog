@@ -4,30 +4,18 @@
     --width: 660px;
     --font-main: system-ui, "Microsoft YaHei", sans-serif;
     --font-secondary: var(--font-main);
-    --background-color: #fbf9ff;
+    --background-color: #fff;
     --heading-color: #302639;
     --text-color: #463d4e;
+    --blockquote-color: #463d4e;
     --link-color: #68488a;
     --visited-color: #775176;
     --border: #e4d9ee;
     --surface: #f0e8fa;
   }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --background-color: #231d2c;
-      --heading-color: #f7ecff;
-      --text-color: #e6daef;
-      --link-color: #dcbcff;
-      --visited-color: #e3bdde;
-      --blockquote-color: #e6daef;
-      --border: #594867;
-      --surface: #352942;
-    }
-  }
   body { padding: clamp(24px, 7vw, 72px) 22px; line-height: 1.8; }
   header { border-bottom: 1px solid var(--border); padding-bottom: 18px; }
   header .title h2 { margin: 0 0 12px; font-size: 1.45rem; }
-  header .title h2::before { content: "🐻 "; }
   header nav { display: flex; flex-wrap: wrap; gap: 10px; }
   header nav a { margin: 0; padding: 2px 13px; border-radius: 999px; background: var(--surface); }
   main { padding-top: 20px; }
